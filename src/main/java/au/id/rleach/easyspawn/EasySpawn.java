@@ -14,10 +14,15 @@ import org.spongepowered.api.text.format.TextColors;
 import org.spongepowered.api.world.Location;
 import org.spongepowered.api.world.World;
 
-import javax.annotation.Nullable;
 import java.util.Optional;
 
-@Plugin(id="EasySpawn", name="EasySpawn", version="0.1.0")
+import javax.annotation.Nullable;
+
+@Plugin( id = au.id.rleach.easyspawn.Plugin.ID,
+        name = au.id.rleach.easyspawn.Plugin.NAME,
+        version = au.id.rleach.easyspawn.Plugin.VERSION,
+        description = au.id.rleach.easyspawn.Plugin.DESCRIPTION
+)
 public class EasySpawn {
 
     @Listener
